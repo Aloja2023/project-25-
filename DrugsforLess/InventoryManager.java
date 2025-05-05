@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Inventory {
+public class InventoryManager {
     static final String FILE_NAME = "inventory.csv";
     static ArrayList<Medicine> inventory = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
